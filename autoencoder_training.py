@@ -22,10 +22,10 @@ from pandarallel import pandarallel
 import tensorflow as tf
 pandarallel.initialize()
 
-# Connexion Teradata
-host     = '10.43.67.32'
-user     = 'u165983'
-password = '7BB43ryXd6'
+# Connexion
+host     = ''
+user     = ''
+password = ''
 url      = '{"host":"'+host+'","user":"'+user+'","password":"'+password+'"}'
 
 # Connexion
